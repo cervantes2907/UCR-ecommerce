@@ -1,0 +1,51 @@
+1)  Visualización de productos
+Como usuario no registrado,
+Quiero ver los productos disponibles en la aplicación,
+Para poder explorar lo que ofrece la tienda antes de registrarme.
+
+Criterios de aceptación:
+
+El usuario puede ver una lista de productos en la página principal.
+Cada producto debe mostrar al menos una imagen, el nombre y el precio.
+
+2) Registro de usuario
+Como nuevo usuario,
+Quiero registrarme en la aplicación,
+Para poder acceder a todas las funciones, como comprar productos y ver mi historial de compras.
+
+Criterios de aceptación:
+
+El formulario de registro debe requerir nombre, nuero de telefono, direccion, correo electrónico y contraseña.
+Se debe mostrar un mensaje de error si el correo electrónico ya está registrado.
+
+3)Inicio de sesión
+Como usuario registrado,
+Quiero iniciar sesión en mi cuenta,
+Para poder acceder a mi carrito de compras y a mi historial de compras.
+
+Criterios de aceptación:
+
+El usuario puede iniciar sesión con su correo electrónico y contraseña.
+Se debe mostrar un mensaje de error si las credenciales son incorrectas.
+El usuario debe ser redirigido a la página principal tras iniciar sesión exitosamente.
+
+4) Acceso al carrito de compras
+Como usuario logueado,
+Quiero acceder a mi carrito de compras,
+Para poder revisar los productos que deseo comprar.
+
+Criterios de aceptación:
+
+El usuario puede ver una lista de productos en su carrito.
+El usuario puede eliminar los productos del carrito.
+Se debe mostrar el total a pagar en el carrito.
+
+5) Acceso al historial de compras
+Como usuario logueado,
+Quiero ver mi historial de compras,
+Para poder revisar mis pedidos anteriores y hacer seguimiento de mis compras.
+
+Criterios de aceptación:
+
+El usuario puede ver una lista de pedidos anteriores con detalles de cada uno.
+Cada pedido debe incluir la fecha de compra, productos comprados y total pagado.
